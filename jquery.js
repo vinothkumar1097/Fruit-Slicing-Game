@@ -88,7 +88,7 @@ $(document).ready(function(){
     });
     
     //Once we crush the fruit
-    $("#fruit1").mouseover(function(){
+    $("#fruit1").click(function(){
        
         //increase the score
         score++;
